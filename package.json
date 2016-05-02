@@ -1,0 +1,28 @@
+{
+    "name": "theme-nawal",
+    "displayName": "Nawal theme",
+    "description": "Nawal. A theme for the nocturnal developer.",
+    "version": "0.0.1",
+    "publisher": "bialikover",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+	"homepage": "https://github.com/bialikover/nawal/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/bialikover/nawal/"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "nawal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nawal.tmTheme"
+            }
+        ]
+    }
+}
